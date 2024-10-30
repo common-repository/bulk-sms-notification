@@ -1,0 +1,433 @@
+.mobsms_nav_menu{margin-left:4px;padding:4px 8px;position:relative;top:-3px;text-decoration:none;border:1px solid #0071a1;border-radius:2px;text-shadow:none;font-weight:600;font-size:13px;line-height:normal;color:#0071a1;background:#f3f5f6;cursor:pointer;}
+.mobsms_th{
+    background-color: #20b2aa;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 5%;
+    font-size:initial;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+    
+.mobsms_td{
+    text-align: center; 
+    border-left: 1px solid  #20b2aa;
+    border-bottom: 1px solid  #20b2aa;
+ }
+.mobsms_td:last-child{
+      border-right: 1px solid  #20b2aa;
+}
+
+
+input[type="radio"] {
+    border-radius: 10px;
+}
+
+.radio-group {
+  border: solid 3px lighten(red,20%);
+  display: inline-block;
+  border-radius: 10px;
+  overflow: hidden;
+  float:right;
+}
+
+input[type="checkbox"] {
+}
+
+.mo_wpns_progress {
+  width: 100%;
+  background-color: grey;
+}
+
+.nav_bar{
+  margin-top:2%;
+  margin-right: 2%;
+  padding-top: 1px;
+  background-color: #FFFFFF;
+}
+.mo_wpns_progress_bar {
+  width: 0%;
+  height: 20px;
+  background-color: #4CAF50;
+  text-align: center; 
+  line-height: 20px;
+  color: white;
+}
+
+    .popup_text_not_JQ
+    {
+      color:black;
+      margin-top: 2%;
+      margin-left: 5%;
+      font-weight: 600;
+      font-size: 14px !important;
+    }
+    .popup_text
+  {
+    color:black;
+    margin-top: 2%;
+    font-weight: 600; 
+    font-size: 14px !important;;
+
+  }
+  .overlay_not_JQ_success{
+    width: 450px;
+    height: min-content;
+    position: fixed;
+    float: right;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin-top: 7%;
+    background-color:#bcffb4 !important ;
+    transition: 0.5s;
+    border-left: 4px solid #46b450;
+  }
+  .overlay_not_JQ_error {
+    width: 450px;
+    height: min-content;
+    position: fixed;
+    float: right;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin-top: 7%;
+    background-color:bisque !important ;
+    transition: 0.5s; 
+    border-left: 4px solid red;
+  }
+ 
+  .overlay_success {
+    width: min-content;
+    height: 40px;
+    position: fixed;
+    float: right;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin-top: 7%;
+    background-color:#bcffb4 !important ;
+    border-left: 4px solid #46b450;
+  }
+  .overlay_error {
+    width: min-content;
+    height: 40px;
+    position: fixed;
+    float: right;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin-top: 7%;
+    background-color:bisque !important ;
+    border-left: 4px solid red;
+  }
+
+.mo_wpsn_button {
+  background-color: #20b2aa;
+  border: none;
+  color: white;
+  padding: 11px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.mo_wpsn_button:disabled {
+  background-color: #20b2aa;
+  border: none;
+  color: white;
+  padding: 11px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.mo_wpsn_button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  color: white;
+}
+
+.mo_wpns_divided_layout{
+  margin-top:2%;
+  margin-right: 2%;
+}
+.mobsms_main_table{
+  margin-top: 5%;
+  width: 100%;
+}
+.mo_wpns_next_divided_layout{
+  margin-top:2%;
+  margin-right: 2%;
+  width:68%;
+  float: left;
+}
+
+.mo_wpns_menu_layout
+{
+  padding: 2%;
+  margin-right: 2%;
+  margin-top: -160px;
+  border: 2px solid  #20b2aa;
+  height: max-content;
+  background-color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mo_wpns_send_sms_layout
+{
+  padding: 2%;
+  margin-right: 2%;
+  margin-top: -227px;
+  border: 2px solid  #20b2aa;
+  height: max-content;
+  background-color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.mo_wpns_support_layout{
+  padding: 2%;
+  border: 2px solid  #20b2aa;
+  height: max-content;
+  background-color: #FFFFFF;
+  text-align: center;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.mo_wpns_settings_textarea
+{
+	resize: vertical;
+	width:100%;
+	height: 105px;
+}
+
+
+.mo_wpns_button {
+  background-color: #20b2aa;
+  border: none;
+  color: white;
+  padding: 11px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+
+.mo_wpns_button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  color: white;
+}
+
+
+.mo_wpns_table_textbox {
+	width:100%;
+	height:30px;
+}
+.mo_wpns_settings_table {
+	width: 100%;
+}
+
+ .nav-tab{
+    font-size : auto;
+     background-color: none; 
+      border: 1px;
+      color: black;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      
+      font-size: 120%;
+      margin: 5px 0px;
+      width: 14.5%;
+      border: 1px solid gray;
+      background-color: white;
+  }
+ .nav-tab-active
+  {
+    font-size: 120%;
+    box-shadow: 3px 4px 3px #888888;
+    background-color: #20b2aa;
+    color: white;
+    
+  }
+  .nav-tab:hover
+  {
+    background-color: #20b2aa;
+    color: white; 
+  }
+  .nav-tab-active:hover
+  {
+    background-color: white;
+    color:#20b2aa;
+  }
+
+
+.td_data{
+  width:25%;
+  color: blue;
+}
+
+
+.mo_wpns_switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.mo_wpns_switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.mo_wpns_slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.mo_wpns_slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .mo_wpns_slider {
+  background-color: #20b2aa;
+}
+
+input:focus + .mo_wpns_slider {
+  box-shadow: 0 0 1px #20b2aa;
+}
+
+input:checked + .mo_wpns_slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.mo_wpns_slider.mo_wpns_round {
+  border-radius: 34px;
+}
+
+.mo_wpns_slider.mo_wpns_round:before {
+  border-radius: 50%;
+}
+.mo_wpns_switch_small {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+}
+.mo_wpns_switch_small input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.mo_wpns_slider_small {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.mo_wpns_slider_small:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .mo_wpns_slider_small {
+  background-color: #20b2aa;
+}
+input:focus + .mo_wpns_slider_small {
+  box-shadow: 0 0 1px #20b2aa;
+}
+
+input:checked + .mo_wpns_slider_small:before {
+  -webkit-transform: translateX(17px);
+  -ms-transform: translateX(17px);
+  transform: translateX(17px);
+}
+.mo_wpns_slider_small.mo_wpns_round_small {
+  border-radius: 24px;
+}
+
+.mo_wpns_slider_small.mo_wpns_round_small:before {
+  border-radius: 50%;
+}
+.mobsms_sub_tabs
+{
+  padding: 10px 25px;
+  background-color: white;
+  border: 1px solid black;
+  float: left;
+  cursor: pointer;
+}
+.mobsms_upgrade_div
+{
+  width: 48%;
+  min-height: 426px;
+  background-color: #4dbfb9;
+  float: left;
+  border: 2px solid black;
+}
+.mobsms_upgrade_title
+{
+  min-height: 70px;
+  background-color: black;
+  text-align: center;
+}
+.mobsms_upgrade_features
+{
+  min-height: 100px;
+  background-color: white;
+  text-align: center;
+}
+.mobsms_upgrade_space_div
+{
+  width: 2%;
+  min-height: 500px;
+  float: left;
+}
